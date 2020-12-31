@@ -1,0 +1,85 @@
+2020-12-28 13:39:51.539503 >>> {command: get_health}
+2020-12-28 13:39:52.971692 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2020-12-28 13:39:52.992822 >>> {command: tap, finderType: ByValueKey, keyValueString: email-field, keyValueType: String}
+2020-12-28 13:40:23.020185 >>> {command: tap, finderType: ByValueKey, keyValueString: email-field, keyValueType: String}
+2020-12-28 13:42:48.472286 >>> {command: get_health}
+2020-12-28 13:42:50.633591 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2020-12-28 13:42:50.649551 >>> {command: tap, finderType: ByValueKey, keyValueString: email-field, keyValueType: String}
+2020-12-28 13:43:20.679221 >>> {command: tap, finderType: ByValueKey, keyValueString: email-field, keyValueType: String}
+2020-12-28 13:52:01.853593 >>> {command: get_health}
+2020-12-28 13:52:03.487685 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2020-12-28 13:52:03.503632 >>> {command: tap, finderType: ByValueKey, keyValueString: SignInButton, keyValueType: String}
+2020-12-28 13:52:03.744437 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-12-28 13:52:03.748453 >>> {command: tap, finderType: ByValueKey, keyValueString: email-field, keyValueType: String}
+2020-12-28 13:52:04.956940 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-12-28 13:52:04.960961 >>> {command: enter_text, text: san@gmail.com}
+2020-12-28 13:52:05.018380 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-12-28 13:52:05.043553 >>> {command: tap, finderType: ByValueKey, keyValueString: password-field, keyValueType: String}
+2020-12-28 13:52:05.338387 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-12-28 13:52:05.342358 >>> {command: enter_text, text: asdfghjkl}
+2020-12-28 13:52:05.356301 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-12-28 13:52:05.358296 >>> {command: tap, finderType: ByText, text: Sign in}
+2020-12-28 13:52:05.764853 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-12-28 13:52:05.770809 >>> {command: waitForCondition, conditionName: NoTransientCallbacksCondition}
+2020-12-28 13:52:05.995952 <<< {isError: false, response: null, type: _extensionType, method: ext.flutter.driver}
+2020-12-28 13:52:06.001936 >>> {command: tap, finderType: ByValueKey, keyValueString: SignInButton, keyValueType: String}
+2020-12-28 13:53:39.462032 >>> {command: get_health}
+2020-12-28 13:53:41.007803 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2020-12-28 13:53:41.023767 >>> {command: tap, finderType: ByValueKey, keyValueString: SignInButton, keyValueType: String}
+2020-12-28 13:53:41.408618 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-12-28 13:53:41.412607 >>> {command: tap, finderType: ByValueKey, keyValueString: email-field, keyValueType: String}
+2020-12-28 13:53:43.136667 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-12-28 13:53:43.140677 >>> {command: enter_text, text: san@gmail.com}
+2020-12-28 13:53:43.197024 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-12-28 13:53:43.199075 >>> {command: tap, finderType: ByValueKey, keyValueString: password-field, keyValueType: String}
+2020-12-28 13:53:43.531995 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-12-28 13:53:43.536177 >>> {command: enter_text, text: asdfghjkl}
+2020-12-28 13:53:43.551226 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-12-28 13:53:43.553221 >>> {command: tap, finderType: ByText, text: Sign in}
+2020-12-28 13:53:43.961730 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-12-28 13:53:43.966912 >>> {command: waitForCondition, conditionName: NoTransientCallbacksCondition}
+2020-12-28 13:53:44.189933 <<< {isError: false, response: null, type: _extensionType, method: ext.flutter.driver}
+2020-12-28 13:53:44.202138 >>> {command: tap, finderType: ByValueKey, keyValueString: SignInButton, keyValueType: String}
+2020-12-28 13:58:11.875266 >>> {command: get_health}
+2020-12-28 13:58:13.392237 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2020-12-28 13:58:13.407220 >>> {command: tap, finderType: ByValueKey, keyValueString: SignInButton, keyValueType: String}
+2020-12-28 13:58:13.641033 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-12-28 13:58:13.644026 >>> {command: tap, finderType: ByValueKey, keyValueString: email-field, keyValueType: String}
+2020-12-28 13:58:14.721091 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-12-28 13:58:14.724082 >>> {command: tap, finderType: ByValueKey, keyValueString: email-field, keyValueType: String}
+2020-12-28 13:58:15.064567 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-12-28 13:58:15.069533 >>> {command: enter_text, text: test@testmail.com}
+2020-12-28 13:58:15.129061 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-12-28 13:58:15.151248 >>> {command: tap, finderType: ByValueKey, keyValueString: password-field, keyValueType: String}
+2020-12-28 13:58:15.399310 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-12-28 13:58:15.402418 >>> {command: enter_text, text: test}
+2020-12-28 13:58:15.415460 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-12-28 13:58:15.417452 >>> {command: tap, finderType: ByText, text: Sign in}
+2020-12-28 13:58:15.779768 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-12-28 13:58:15.802212 >>> {command: waitForCondition, conditionName: NoTransientCallbacksCondition}
+2020-12-28 13:58:16.049276 <<< {isError: false, response: null, type: _extensionType, method: ext.flutter.driver}
+2020-12-28 13:58:16.056234 >>> {command: tap, finderType: ByValueKey, keyValueString: SignInButton, keyValueType: String}
+2020-12-28 14:00:00.177167 >>> {command: get_health}
+2020-12-28 14:00:01.889011 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2020-12-28 14:00:01.903980 >>> {command: tap, finderType: ByValueKey, keyValueString: SignInButton, keyValueType: String}
+2020-12-28 14:00:02.164338 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-12-28 14:00:02.168307 >>> {command: tap, finderType: ByValueKey, keyValueString: email-field, keyValueType: String}
+2020-12-28 14:01:27.609903 >>> {command: get_health}
+2020-12-28 14:01:29.161992 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2020-12-28 14:01:29.180967 >>> {command: tap, finderType: ByValueKey, keyValueString: SignInButton, keyValueType: String}
+2020-12-28 14:01:29.405289 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-12-28 14:01:29.409243 >>> {command: tap, finderType: ByValueKey, keyValueString: email-field, keyValueType: String}
+2020-12-28 14:01:30.696554 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-12-28 14:01:30.699760 >>> {command: tap, finderType: ByValueKey, keyValueString: email-field, keyValueType: String}
+2020-12-28 14:01:30.774288 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-12-28 14:01:30.784252 >>> {command: enter_text, text: test@testmail.com}
+2020-12-28 14:01:31.003144 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-12-28 14:01:31.006135 >>> {command: tap, finderType: ByValueKey, keyValueString: password-field, keyValueType: String}
+2020-12-28 14:01:31.282020 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-12-28 14:01:31.285011 >>> {command: enter_text, text: testtest}
+2020-12-28 14:01:31.333121 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-12-28 14:01:31.335095 >>> {command: tap, finderType: ByText, text: Sign in}
+2020-12-28 14:01:31.739864 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2020-12-28 14:01:31.743881 >>> {command: waitForCondition, conditionName: NoTransientCallbacksCondition}
+2020-12-28 14:01:31.985134 <<< {isError: false, response: null, type: _extensionType, method: ext.flutter.driver}
+2020-12-28 14:01:31.991083 >>> {command: tap, finderType: ByValueKey, keyValueString: SignInButton, keyValueType: String}

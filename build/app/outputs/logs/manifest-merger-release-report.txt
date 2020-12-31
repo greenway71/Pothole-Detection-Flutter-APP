@@ -1,0 +1,398 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:1:1-34:12
+MERGED from [:geoflutterfire] /home/greenway/Downloads/np/build/geoflutterfire/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.multidex:multidex:2.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/160677faf5eef395e0f3a74bcdfe039f/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [:firebase_auth] /home/greenway/Downloads/np/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_auth_web] /home/greenway/Downloads/np/build/firebase_auth_web/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:cloud_firestore] /home/greenway/Downloads/np/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:2:1-15:12
+MERGED from [:cloud_firestore_web] /home/greenway/Downloads/np/build/cloud_firestore_web/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:firebase_core] /home/greenway/Downloads/np/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_core_web] /home/greenway/Downloads/np/build/firebase_core_web/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:sqflite] /home/greenway/Downloads/np/build/sqflite/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:path_provider] /home/greenway/Downloads/np/build/path_provider/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:path_provider_macos] /home/greenway/Downloads/np/build/path_provider_macos/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:google_maps_flutter] /home/greenway/Downloads/np/build/google_maps_flutter/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_plugin_android_lifecycle] /home/greenway/Downloads/np/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:location] /home/greenway/Downloads/np/build/location/intermediates/library_manifest/release/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/e3061f66499df05537420b1f7e594f34/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/7d60575157bec3cfa7ff2579b6dad05e/play-services-maps-17.0.0/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.firebase:firebase-auth:19.2.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/20dc4fdcc4db16cda65598ec09369c4f/firebase-auth-19.2.0/AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/954b18db951c5e73fa89a1af98d31119/firebase-auth-interop-19.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/73076b06d75d26be40dc384d877e1603/jetified-firebase-common-19.3.0/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/2e39531ddad5204b2ee8c099243deffe/jetified-play-services-location-16.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/ea0d7ff4156fcbc57611a961b34f2556/play-services-base-17.1.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/123f90c4fa528d261d29ec44df760ee9/play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/f7aea698c529a7ad3d330867512330cd/play-services-places-placereport-16.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/0a0ac069d97d7df19b88d6c42e92e229/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/0dabe6dfde01260ccbbfa96511bf949c/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/44a35e62ceb73d4f07c2cf8c6dacc977/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/0abb8e20a27e7d0fd851125c36aad5cb/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/f824236bd54f958a8f3b31c1f576b6d2/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/6cd2c8dbbdc8aac217cf2e1019368ae0/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/24c23f35d7e580a396eae4b3fa92dd88/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/ab5d443cf82a7f424cce162745af76bc/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/54aab89f9ee21b7ab833ca43ac48a9af/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/cc09e61cf94975332e0b2e8e58bffc19/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/47d164043d2850a9965b5be6480dfaba/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/d032edcc22d32f4fb9faea95c68e68c2/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/cc4e146a401e12618c8d4f31e70226a5/core-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/6e416f9c1ecdd3f2005eaab3ba80c2cf/lifecycle-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/fa5f423cfa4256af4ac03bb472af32ba/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/95b734fbfe9b607b7526ee22e71c0695/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/d39a93ecc005d2240a96b4063c64086e/jetified-firebase-components-16.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/d859b597399ea5af8229cef30c59ac3c/versionedparcelable-1.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/bfe6d920a96787a58f82159ec01eaeca/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/05dc06e6cef85d274c3a51bc0f9895be/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/2c30574028022caa377971f50d52ea9b/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/4a6e443e6b65230b37d445765cce3076/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/5443bfc2a919cbf6410520e7df860572/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/577d8056562a129aac9044a588384539/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/75ecd09be42bd0e6a829e85ad4211380/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [io.grpc:grpc-android:1.21.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/d1746afab57c4e4b2ccd2f5b2f4df3c8/grpc-android-1.21.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/b1ab7d31b3aefb9db5f0dbf4efd513ef/firebase-database-collection-17.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/0e4a76f50cc0c4672a399dc022ee9b48/protolite-well-known-types-17.0.0/AndroidManifest.xml:2:1-11:12
+INJECTED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:1:1-34:12
+	package
+		ADDED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:2:5-38
+		INJECTED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:1:1-34:12
+		INJECTED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:1:1-34:12
+		INJECTED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permisson.INTERNRT
+ADDED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:8:5-65
+	android:name
+		ADDED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:8:22-63
+uses-permission#android.permisson.ACCESS_FINE_LOCATION
+ADDED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:9:5-77
+	android:name
+		ADDED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:9:22-75
+application
+ADDED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:10:5-33:19
+MERGED from [:firebase_auth] /home/greenway/Downloads/np/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_auth] /home/greenway/Downloads/np/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] /home/greenway/Downloads/np/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] /home/greenway/Downloads/np/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /home/greenway/Downloads/np/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /home/greenway/Downloads/np/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/e3061f66499df05537420b1f7e594f34/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/e3061f66499df05537420b1f7e594f34/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/7d60575157bec3cfa7ff2579b6dad05e/play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/7d60575157bec3cfa7ff2579b6dad05e/play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.firebase:firebase-auth:19.2.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/20dc4fdcc4db16cda65598ec09369c4f/firebase-auth-19.2.0/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:19.2.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/20dc4fdcc4db16cda65598ec09369c4f/firebase-auth-19.2.0/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/954b18db951c5e73fa89a1af98d31119/firebase-auth-interop-19.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/954b18db951c5e73fa89a1af98d31119/firebase-auth-interop-19.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/73076b06d75d26be40dc384d877e1603/jetified-firebase-common-19.3.0/AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/73076b06d75d26be40dc384d877e1603/jetified-firebase-common-19.3.0/AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/2e39531ddad5204b2ee8c099243deffe/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/2e39531ddad5204b2ee8c099243deffe/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/ea0d7ff4156fcbc57611a961b34f2556/play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/ea0d7ff4156fcbc57611a961b34f2556/play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/123f90c4fa528d261d29ec44df760ee9/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/123f90c4fa528d261d29ec44df760ee9/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/f7aea698c529a7ad3d330867512330cd/play-services-places-placereport-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/f7aea698c529a7ad3d330867512330cd/play-services-places-placereport-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/0a0ac069d97d7df19b88d6c42e92e229/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/0a0ac069d97d7df19b88d6c42e92e229/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/cc4e146a401e12618c8d4f31e70226a5/core-1.0.0/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/cc4e146a401e12618c8d4f31e70226a5/core-1.0.0/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/d859b597399ea5af8229cef30c59ac3c/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/d859b597399ea5af8229cef30c59ac3c/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/cc4e146a401e12618c8d4f31e70226a5/core-1.0.0/AndroidManifest.xml:22:18-86
+	android:label
+		ADDED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:12:9-49
+	android:icon
+		ADDED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:13:9-43
+	android:name
+		ADDED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:11:9-57
+meta-data#com.google.android.geo.API_KEY
+ADDED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:14:9-15:70
+	android:value
+		ADDED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:15:13-68
+	android:name
+		ADDED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:14:20-65
+activity#com.example.new_project.MainActivity
+ADDED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:16:9-27:20
+	android:launchMode
+		ADDED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:18:13-43
+	android:hardwareAccelerated
+		ADDED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:21:13-47
+	android:windowSoftInputMode
+		ADDED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:22:13-55
+	android:configChanges
+		ADDED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:20:13-163
+	android:theme
+		ADDED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:19:13-47
+	android:name
+		ADDED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:17:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:23:13-26:29
+action#android.intent.action.MAIN
+ADDED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:24:17-68
+	android:name
+		ADDED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:25:17-76
+	android:name
+		ADDED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:25:27-74
+meta-data#flutterEmbedding
+ADDED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:30:9-32:33
+	android:value
+		ADDED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:32:13-30
+	android:name
+		ADDED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:31:13-44
+uses-sdk
+INJECTED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml
+MERGED from [:geoflutterfire] /home/greenway/Downloads/np/build/geoflutterfire/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:geoflutterfire] /home/greenway/Downloads/np/build/geoflutterfire/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.multidex:multidex:2.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/160677faf5eef395e0f3a74bcdfe039f/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/160677faf5eef395e0f3a74bcdfe039f/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [:firebase_auth] /home/greenway/Downloads/np/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] /home/greenway/Downloads/np/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth_web] /home/greenway/Downloads/np/build/firebase_auth_web/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth_web] /home/greenway/Downloads/np/build/firebase_auth_web/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] /home/greenway/Downloads/np/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] /home/greenway/Downloads/np/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore_web] /home/greenway/Downloads/np/build/cloud_firestore_web/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore_web] /home/greenway/Downloads/np/build/cloud_firestore_web/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /home/greenway/Downloads/np/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /home/greenway/Downloads/np/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core_web] /home/greenway/Downloads/np/build/firebase_core_web/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core_web] /home/greenway/Downloads/np/build/firebase_core_web/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /home/greenway/Downloads/np/build/sqflite/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /home/greenway/Downloads/np/build/sqflite/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] /home/greenway/Downloads/np/build/path_provider/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] /home/greenway/Downloads/np/build/path_provider/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_macos] /home/greenway/Downloads/np/build/path_provider_macos/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_macos] /home/greenway/Downloads/np/build/path_provider_macos/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:google_maps_flutter] /home/greenway/Downloads/np/build/google_maps_flutter/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:google_maps_flutter] /home/greenway/Downloads/np/build/google_maps_flutter/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /home/greenway/Downloads/np/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /home/greenway/Downloads/np/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:location] /home/greenway/Downloads/np/build/location/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:location] /home/greenway/Downloads/np/build/location/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/e3061f66499df05537420b1f7e594f34/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/e3061f66499df05537420b1f7e594f34/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/7d60575157bec3cfa7ff2579b6dad05e/play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/7d60575157bec3cfa7ff2579b6dad05e/play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:19.2.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/20dc4fdcc4db16cda65598ec09369c4f/firebase-auth-19.2.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:19.2.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/20dc4fdcc4db16cda65598ec09369c4f/firebase-auth-19.2.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/954b18db951c5e73fa89a1af98d31119/firebase-auth-interop-19.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/954b18db951c5e73fa89a1af98d31119/firebase-auth-interop-19.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/73076b06d75d26be40dc384d877e1603/jetified-firebase-common-19.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/73076b06d75d26be40dc384d877e1603/jetified-firebase-common-19.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/2e39531ddad5204b2ee8c099243deffe/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/2e39531ddad5204b2ee8c099243deffe/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/ea0d7ff4156fcbc57611a961b34f2556/play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/ea0d7ff4156fcbc57611a961b34f2556/play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/123f90c4fa528d261d29ec44df760ee9/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/123f90c4fa528d261d29ec44df760ee9/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/f7aea698c529a7ad3d330867512330cd/play-services-places-placereport-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/f7aea698c529a7ad3d330867512330cd/play-services-places-placereport-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/0a0ac069d97d7df19b88d6c42e92e229/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/0a0ac069d97d7df19b88d6c42e92e229/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/0dabe6dfde01260ccbbfa96511bf949c/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/0dabe6dfde01260ccbbfa96511bf949c/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/44a35e62ceb73d4f07c2cf8c6dacc977/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/44a35e62ceb73d4f07c2cf8c6dacc977/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/0abb8e20a27e7d0fd851125c36aad5cb/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/0abb8e20a27e7d0fd851125c36aad5cb/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/f824236bd54f958a8f3b31c1f576b6d2/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/f824236bd54f958a8f3b31c1f576b6d2/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/6cd2c8dbbdc8aac217cf2e1019368ae0/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/6cd2c8dbbdc8aac217cf2e1019368ae0/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/24c23f35d7e580a396eae4b3fa92dd88/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/24c23f35d7e580a396eae4b3fa92dd88/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/ab5d443cf82a7f424cce162745af76bc/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/ab5d443cf82a7f424cce162745af76bc/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/54aab89f9ee21b7ab833ca43ac48a9af/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/54aab89f9ee21b7ab833ca43ac48a9af/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/cc09e61cf94975332e0b2e8e58bffc19/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/cc09e61cf94975332e0b2e8e58bffc19/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/47d164043d2850a9965b5be6480dfaba/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/47d164043d2850a9965b5be6480dfaba/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/d032edcc22d32f4fb9faea95c68e68c2/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/d032edcc22d32f4fb9faea95c68e68c2/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/cc4e146a401e12618c8d4f31e70226a5/core-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/cc4e146a401e12618c8d4f31e70226a5/core-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/6e416f9c1ecdd3f2005eaab3ba80c2cf/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/6e416f9c1ecdd3f2005eaab3ba80c2cf/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/fa5f423cfa4256af4ac03bb472af32ba/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/fa5f423cfa4256af4ac03bb472af32ba/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/95b734fbfe9b607b7526ee22e71c0695/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/95b734fbfe9b607b7526ee22e71c0695/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:16.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/d39a93ecc005d2240a96b4063c64086e/jetified-firebase-components-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/d39a93ecc005d2240a96b4063c64086e/jetified-firebase-components-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/d859b597399ea5af8229cef30c59ac3c/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/d859b597399ea5af8229cef30c59ac3c/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/bfe6d920a96787a58f82159ec01eaeca/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/bfe6d920a96787a58f82159ec01eaeca/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/05dc06e6cef85d274c3a51bc0f9895be/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/05dc06e6cef85d274c3a51bc0f9895be/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/2c30574028022caa377971f50d52ea9b/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/2c30574028022caa377971f50d52ea9b/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/4a6e443e6b65230b37d445765cce3076/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/4a6e443e6b65230b37d445765cce3076/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/5443bfc2a919cbf6410520e7df860572/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/5443bfc2a919cbf6410520e7df860572/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/577d8056562a129aac9044a588384539/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/577d8056562a129aac9044a588384539/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/75ecd09be42bd0e6a829e85ad4211380/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/75ecd09be42bd0e6a829e85ad4211380/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [io.grpc:grpc-android:1.21.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/d1746afab57c4e4b2ccd2f5b2f4df3c8/grpc-android-1.21.0/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.21.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/d1746afab57c4e4b2ccd2f5b2f4df3c8/grpc-android-1.21.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/b1ab7d31b3aefb9db5f0dbf4efd513ef/firebase-database-collection-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/b1ab7d31b3aefb9db5f0dbf4efd513ef/firebase-database-collection-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/0e4a76f50cc0c4672a399dc022ee9b48/protolite-well-known-types-17.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/0e4a76f50cc0c4672a399dc022ee9b48/protolite-well-known-types-17.0.0/AndroidManifest.xml:7:5-9:41
+INJECTED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:firebase_auth] /home/greenway/Downloads/np/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:19
+MERGED from [:cloud_firestore] /home/greenway/Downloads/np/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:19
+MERGED from [:cloud_firestore] /home/greenway/Downloads/np/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /home/greenway/Downloads/np/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /home/greenway/Downloads/np/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:19
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/e3061f66499df05537420b1f7e594f34/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/e3061f66499df05537420b1f7e594f34/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-auth:19.2.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/20dc4fdcc4db16cda65598ec09369c4f/firebase-auth-19.2.0/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-auth:19.2.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/20dc4fdcc4db16cda65598ec09369c4f/firebase-auth-19.2.0/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/73076b06d75d26be40dc384d877e1603/jetified-firebase-common-19.3.0/AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/73076b06d75d26be40dc384d877e1603/jetified-firebase-common-19.3.0/AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-firestore:21.3.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/e3061f66499df05537420b1f7e594f34/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:19:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/73076b06d75d26be40dc384d877e1603/jetified-firebase-common-19.3.0/AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/73076b06d75d26be40dc384d877e1603/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [:firebase_auth] /home/greenway/Downloads/np/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:8:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_auth] /home/greenway/Downloads/np/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_auth] /home/greenway/Downloads/np/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_auth] /home/greenway/Downloads/np/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:10:17-122
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar
+ADDED from [:cloud_firestore] /home/greenway/Downloads/np/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:cloud_firestore] /home/greenway/Downloads/np/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:cloud_firestore] /home/greenway/Downloads/np/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:10:17-133
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_core] /home/greenway/Downloads/np/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_core] /home/greenway/Downloads/np/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_core] /home/greenway/Downloads/np/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:10:17-123
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [:location] /home/greenway/Downloads/np/build/location/intermediates/library_manifest/release/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from [:location] /home/greenway/Downloads/np/build/location/intermediates/library_manifest/release/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from [:location] /home/greenway/Downloads/np/build/location/intermediates/library_manifest/release/AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from [:location] /home/greenway/Downloads/np/build/location/intermediates/library_manifest/release/AndroidManifest.xml:8:22-76
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-firestore:21.3.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/e3061f66499df05537420b1f7e594f34/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:13:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/7d60575157bec3cfa7ff2579b6dad05e/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/7d60575157bec3cfa7ff2579b6dad05e/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+MERGED from [io.grpc:grpc-android:1.21.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/d1746afab57c4e4b2ccd2f5b2f4df3c8/grpc-android-1.21.0/AndroidManifest.xml:11:5-79
+MERGED from [io.grpc:grpc-android:1.21.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/d1746afab57c4e4b2ccd2f5b2f4df3c8/grpc-android-1.21.0/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:21.3.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/e3061f66499df05537420b1f7e594f34/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:13:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.firebase:firebase-firestore:21.3.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/e3061f66499df05537420b1f7e594f34/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:14:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/7d60575157bec3cfa7ff2579b6dad05e/play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/7d60575157bec3cfa7ff2579b6dad05e/play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:21.3.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/e3061f66499df05537420b1f7e594f34/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:14:22-64
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:21.3.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/e3061f66499df05537420b1f7e594f34/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:21.3.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/e3061f66499df05537420b1f7e594f34/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:21.3.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/e3061f66499df05537420b1f7e594f34/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:21:17-111
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/7d60575157bec3cfa7ff2579b6dad05e/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/7d60575157bec3cfa7ff2579b6dad05e/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/7d60575157bec3cfa7ff2579b6dad05e/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/7d60575157bec3cfa7ff2579b6dad05e/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/7d60575157bec3cfa7ff2579b6dad05e/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/7d60575157bec3cfa7ff2579b6dad05e/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:19.2.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/20dc4fdcc4db16cda65598ec09369c4f/firebase-auth-19.2.0/AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/20dc4fdcc4db16cda65598ec09369c4f/firebase-auth-19.2.0/AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/20dc4fdcc4db16cda65598ec09369c4f/firebase-auth-19.2.0/AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/20dc4fdcc4db16cda65598ec09369c4f/firebase-auth-19.2.0/AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/20dc4fdcc4db16cda65598ec09369c4f/firebase-auth-19.2.0/AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/20dc4fdcc4db16cda65598ec09369c4f/firebase-auth-19.2.0/AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/20dc4fdcc4db16cda65598ec09369c4f/firebase-auth-19.2.0/AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/20dc4fdcc4db16cda65598ec09369c4f/firebase-auth-19.2.0/AndroidManifest.xml:25:13-85
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:19.2.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/20dc4fdcc4db16cda65598ec09369c4f/firebase-auth-19.2.0/AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/20dc4fdcc4db16cda65598ec09369c4f/firebase-auth-19.2.0/AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/20dc4fdcc4db16cda65598ec09369c4f/firebase-auth-19.2.0/AndroidManifest.xml:37:17-109
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.3.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/73076b06d75d26be40dc384d877e1603/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/73076b06d75d26be40dc384d877e1603/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/73076b06d75d26be40dc384d877e1603/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/73076b06d75d26be40dc384d877e1603/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/73076b06d75d26be40dc384d877e1603/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/ea0d7ff4156fcbc57611a961b34f2556/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/ea0d7ff4156fcbc57611a961b34f2556/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/ea0d7ff4156fcbc57611a961b34f2556/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/ea0d7ff4156fcbc57611a961b34f2556/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/0a0ac069d97d7df19b88d6c42e92e229/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/0a0ac069d97d7df19b88d6c42e92e229/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/0a0ac069d97d7df19b88d6c42e92e229/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58

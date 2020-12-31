@@ -1,0 +1,232 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sandesh.newmarker"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\97798\Downloads\PDS-backup\PDS\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->C:\Users\97798\Downloads\PDS-backup\PDS\android\app\src\debug\AndroidManifest.xml:6:22-64
+15    <!--
+16     io.flutter.app.FlutterApplication is an android.app.Application that
+17         calls FlutterMain.startInitialization(this); in its onCreate method.
+18         In most cases you can leave this as-is, but you if you want to provide
+19         additional functionality it is fine to subclass or reimplement
+20         FlutterApplication and put your custom class here.
+21    -->
+22    <uses-permission android:name="android.permisson.INTERNRT" />
+22-->C:\Users\97798\Downloads\PDS-backup\PDS\android\app\src\main\AndroidManifest.xml:8:5-65
+22-->C:\Users\97798\Downloads\PDS-backup\PDS\android\app\src\main\AndroidManifest.xml:8:22-63
+23    <uses-permission android:name="android.permisson.ACCESS_FINE_LOCATION" />
+23-->C:\Users\97798\Downloads\PDS-backup\PDS\android\app\src\main\AndroidManifest.xml:9:5-77
+23-->C:\Users\97798\Downloads\PDS-backup\PDS\android\app\src\main\AndroidManifest.xml:9:22-75
+24    <uses-permission android:name="android.permission.VIBRATE" />
+24-->C:\Users\97798\Downloads\PDS-backup\PDS\android\app\src\main\AndroidManifest.xml:10:5-66
+24-->C:\Users\97798\Downloads\PDS-backup\PDS\android\app\src\main\AndroidManifest.xml:10:22-63
+25    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+25-->C:\Users\97798\Downloads\PDS-backup\PDS\android\app\src\main\AndroidManifest.xml:11:5-80
+25-->C:\Users\97798\Downloads\PDS-backup\PDS\android\app\src\main\AndroidManifest.xml:11:22-78
+26    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+26-->[:location] C:\Users\97798\Downloads\PDS-backup\PDS\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-81
+26-->[:location] C:\Users\97798\Downloads\PDS-backup\PDS\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-78
+27    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+27-->[:location] C:\Users\97798\Downloads\PDS-backup\PDS\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-79
+27-->[:location] C:\Users\97798\Downloads\PDS-backup\PDS\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-76
+28    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+28-->[:file_picker] C:\Users\97798\Downloads\PDS-backup\PDS\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-80
+28-->[:file_picker] C:\Users\97798\Downloads\PDS-backup\PDS\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-77
+29    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- Include required permissions for Google Maps API to run. -->
+29-->[:image_picker] C:\Users\97798\Downloads\PDS-backup\PDS\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-81
+29-->[:image_picker] C:\Users\97798\Downloads\PDS-backup\PDS\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-78
+30    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+30-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\97798\.gradle\caches\transforms-2\files-2.1\7d60575157bec3cfa7ff2579b6dad05e\play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+30-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\97798\.gradle\caches\transforms-2\files-2.1\7d60575157bec3cfa7ff2579b6dad05e\play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+31
+32    <uses-feature
+32-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\97798\.gradle\caches\transforms-2\files-2.1\7d60575157bec3cfa7ff2579b6dad05e\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+33        android:glEsVersion="0x00020000"
+33-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\97798\.gradle\caches\transforms-2\files-2.1\7d60575157bec3cfa7ff2579b6dad05e\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+34        android:required="true" />
+34-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\97798\.gradle\caches\transforms-2\files-2.1\7d60575157bec3cfa7ff2579b6dad05e\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+35
+36    <application
+36-->C:\Users\97798\Downloads\PDS-backup\PDS\android\app\src\main\AndroidManifest.xml:12:5-35:19
+37        android:name="io.flutter.app.FlutterApplication"
+37-->C:\Users\97798\Downloads\PDS-backup\PDS\android\app\src\main\AndroidManifest.xml:13:9-57
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.2.0] C:\Users\97798\.gradle\caches\transforms-2\files-2.1\3df5e429a6d9d08339d98018b5b2de1e\core-1.2.0\AndroidManifest.xml:24:18-86
+39        android:debuggable="true"
+40        android:icon="@mipmap/ic_launcher"
+40-->C:\Users\97798\Downloads\PDS-backup\PDS\android\app\src\main\AndroidManifest.xml:15:9-43
+41        android:label="Pothole Detection System" >
+41-->C:\Users\97798\Downloads\PDS-backup\PDS\android\app\src\main\AndroidManifest.xml:14:9-49
+42        <meta-data
+42-->C:\Users\97798\Downloads\PDS-backup\PDS\android\app\src\main\AndroidManifest.xml:16:9-17:70
+43            android:name="com.google.android.geo.API_KEY"
+43-->C:\Users\97798\Downloads\PDS-backup\PDS\android\app\src\main\AndroidManifest.xml:16:20-65
+44            android:value="AIzaSyA5WAHceI00p6-U4ctqem8OTV2SzOrT6B8" />
+44-->C:\Users\97798\Downloads\PDS-backup\PDS\android\app\src\main\AndroidManifest.xml:17:13-68
+45
+46        <activity
+46-->C:\Users\97798\Downloads\PDS-backup\PDS\android\app\src\main\AndroidManifest.xml:18:9-29:20
+47            android:name="com.example.new_project.MainActivity"
+47-->C:\Users\97798\Downloads\PDS-backup\PDS\android\app\src\main\AndroidManifest.xml:19:13-41
+48            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+48-->C:\Users\97798\Downloads\PDS-backup\PDS\android\app\src\main\AndroidManifest.xml:22:13-163
+49            android:hardwareAccelerated="true"
+49-->C:\Users\97798\Downloads\PDS-backup\PDS\android\app\src\main\AndroidManifest.xml:23:13-47
+50            android:launchMode="singleTop"
+50-->C:\Users\97798\Downloads\PDS-backup\PDS\android\app\src\main\AndroidManifest.xml:20:13-43
+51            android:theme="@style/LaunchTheme"
+51-->C:\Users\97798\Downloads\PDS-backup\PDS\android\app\src\main\AndroidManifest.xml:21:13-47
+52            android:windowSoftInputMode="adjustResize" >
+52-->C:\Users\97798\Downloads\PDS-backup\PDS\android\app\src\main\AndroidManifest.xml:24:13-55
+53            <intent-filter>
+53-->C:\Users\97798\Downloads\PDS-backup\PDS\android\app\src\main\AndroidManifest.xml:25:13-28:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->C:\Users\97798\Downloads\PDS-backup\PDS\android\app\src\main\AndroidManifest.xml:26:17-68
+54-->C:\Users\97798\Downloads\PDS-backup\PDS\android\app\src\main\AndroidManifest.xml:26:25-66
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->C:\Users\97798\Downloads\PDS-backup\PDS\android\app\src\main\AndroidManifest.xml:27:17-76
+56-->C:\Users\97798\Downloads\PDS-backup\PDS\android\app\src\main\AndroidManifest.xml:27:27-74
+57            </intent-filter>
+58        </activity>
+59        <!--
+60             Don't delete the meta-data below.
+61             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+62        -->
+63        <meta-data
+63-->C:\Users\97798\Downloads\PDS-backup\PDS\android\app\src\main\AndroidManifest.xml:32:9-34:33
+64            android:name="flutterEmbedding"
+64-->C:\Users\97798\Downloads\PDS-backup\PDS\android\app\src\main\AndroidManifest.xml:33:13-44
+65            android:value="2" />
+65-->C:\Users\97798\Downloads\PDS-backup\PDS\android\app\src\main\AndroidManifest.xml:34:13-30
+66
+67        <provider
+67-->[:image_picker] C:\Users\97798\Downloads\PDS-backup\PDS\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-19:20
+68            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+68-->[:image_picker] C:\Users\97798\Downloads\PDS-backup\PDS\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-82
+69            android:authorities="com.sandesh.newmarker.flutter.image_provider"
+69-->[:image_picker] C:\Users\97798\Downloads\PDS-backup\PDS\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-74
+70            android:exported="false"
+70-->[:image_picker] C:\Users\97798\Downloads\PDS-backup\PDS\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-37
+71            android:grantUriPermissions="true" >
+71-->[:image_picker] C:\Users\97798\Downloads\PDS-backup\PDS\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-47
+72            <meta-data
+72-->[:image_picker] C:\Users\97798\Downloads\PDS-backup\PDS\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-18:75
+73                android:name="android.support.FILE_PROVIDER_PATHS"
+73-->[:image_picker] C:\Users\97798\Downloads\PDS-backup\PDS\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-67
+74                android:resource="@xml/flutter_image_picker_file_paths" />
+74-->[:image_picker] C:\Users\97798\Downloads\PDS-backup\PDS\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-72
+75        </provider>
+76
+77        <service
+77-->[:cloud_firestore] C:\Users\97798\Downloads\PDS-backup\PDS\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+78            android:name="com.google.firebase.components.ComponentDiscoveryService"
+78-->[:cloud_firestore] C:\Users\97798\Downloads\PDS-backup\PDS\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+79            android:directBootAware="true"
+79-->[com.google.firebase:firebase-common:19.3.0] C:\Users\97798\.gradle\caches\transforms-2\files-2.1\d069970bbe020591cbd7f97c5e8042a8\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+80            android:exported="false" >
+80-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\97798\.gradle\caches\transforms-2\files-2.1\20dc4fdcc4db16cda65598ec09369c4f\firebase-auth-19.2.0\AndroidManifest.xml:35:13-37
+81            <meta-data
+81-->[:cloud_firestore] C:\Users\97798\Downloads\PDS-backup\PDS\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+82                android:name="com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar"
+82-->[:cloud_firestore] C:\Users\97798\Downloads\PDS-backup\PDS\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-133
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[:cloud_firestore] C:\Users\97798\Downloads\PDS-backup\PDS\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+84            <meta-data
+84-->[:firebase_auth] C:\Users\97798\Downloads\PDS-backup\PDS\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+85                android:name="com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar"
+85-->[:firebase_auth] C:\Users\97798\Downloads\PDS-backup\PDS\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-122
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[:firebase_auth] C:\Users\97798\Downloads\PDS-backup\PDS\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+87            <meta-data
+87-->[:firebase_storage] C:\Users\97798\Downloads\PDS-backup\PDS\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+88                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+88-->[:firebase_storage] C:\Users\97798\Downloads\PDS-backup\PDS\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-126
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[:firebase_storage] C:\Users\97798\Downloads\PDS-backup\PDS\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+90            <meta-data
+90-->[:firebase_core] C:\Users\97798\Downloads\PDS-backup\PDS\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+91                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
+91-->[:firebase_core] C:\Users\97798\Downloads\PDS-backup\PDS\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-123
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[:firebase_core] C:\Users\97798\Downloads\PDS-backup\PDS\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+93            <meta-data
+93-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\97798\.gradle\caches\transforms-2\files-2.1\20dc4fdcc4db16cda65598ec09369c4f\firebase-auth-19.2.0\AndroidManifest.xml:36:13-38:85
+94                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+94-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\97798\.gradle\caches\transforms-2\files-2.1\20dc4fdcc4db16cda65598ec09369c4f\firebase-auth-19.2.0\AndroidManifest.xml:37:17-109
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\97798\.gradle\caches\transforms-2\files-2.1\20dc4fdcc4db16cda65598ec09369c4f\firebase-auth-19.2.0\AndroidManifest.xml:38:17-82
+96            <meta-data
+96-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\97798\.gradle\caches\transforms-2\files-2.1\b3b17d1045ec9376f6107dae8cd475c6\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:20:13-22:85
+97                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+97-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\97798\.gradle\caches\transforms-2\files-2.1\b3b17d1045ec9376f6107dae8cd475c6\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:21:17-111
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\97798\.gradle\caches\transforms-2\files-2.1\b3b17d1045ec9376f6107dae8cd475c6\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:22:17-82
+99            <meta-data
+99-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\97798\.gradle\caches\transforms-2\files-2.1\a214f485bc2239dbc89b4c186732b6eb\jetified-firebase-storage-17.0.0\AndroidManifest.xml:31:13-33:85
+100                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+100-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\97798\.gradle\caches\transforms-2\files-2.1\a214f485bc2239dbc89b4c186732b6eb\jetified-firebase-storage-17.0.0\AndroidManifest.xml:32:17-107
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\97798\.gradle\caches\transforms-2\files-2.1\a214f485bc2239dbc89b4c186732b6eb\jetified-firebase-storage-17.0.0\AndroidManifest.xml:33:17-82
+102        </service>
+103
+104        <activity
+104-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\97798\.gradle\caches\transforms-2\files-2.1\20dc4fdcc4db16cda65598ec09369c4f\firebase-auth-19.2.0\AndroidManifest.xml:24:9-31:50
+105            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+105-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\97798\.gradle\caches\transforms-2\files-2.1\20dc4fdcc4db16cda65598ec09369c4f\firebase-auth-19.2.0\AndroidManifest.xml:25:13-85
+106            android:excludeFromRecents="true"
+106-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\97798\.gradle\caches\transforms-2\files-2.1\20dc4fdcc4db16cda65598ec09369c4f\firebase-auth-19.2.0\AndroidManifest.xml:26:13-46
+107            android:exported="true"
+107-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\97798\.gradle\caches\transforms-2\files-2.1\20dc4fdcc4db16cda65598ec09369c4f\firebase-auth-19.2.0\AndroidManifest.xml:27:13-36
+108            android:launchMode="singleTask"
+108-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\97798\.gradle\caches\transforms-2\files-2.1\20dc4fdcc4db16cda65598ec09369c4f\firebase-auth-19.2.0\AndroidManifest.xml:28:13-44
+109            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+109-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\97798\.gradle\caches\transforms-2\files-2.1\20dc4fdcc4db16cda65598ec09369c4f\firebase-auth-19.2.0\AndroidManifest.xml:29:13-102
+110            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- Needs to be explicitly declared on P+ -->
+110-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\97798\.gradle\caches\transforms-2\files-2.1\20dc4fdcc4db16cda65598ec09369c4f\firebase-auth-19.2.0\AndroidManifest.xml:30:13-72
+111        <uses-library
+111-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\97798\.gradle\caches\transforms-2\files-2.1\7d60575157bec3cfa7ff2579b6dad05e\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+112            android:name="org.apache.http.legacy"
+112-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\97798\.gradle\caches\transforms-2\files-2.1\7d60575157bec3cfa7ff2579b6dad05e\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+113            android:required="false" />
+113-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\97798\.gradle\caches\transforms-2\files-2.1\7d60575157bec3cfa7ff2579b6dad05e\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+114
+115        <provider
+115-->[com.google.firebase:firebase-common:19.3.0] C:\Users\97798\.gradle\caches\transforms-2\files-2.1\d069970bbe020591cbd7f97c5e8042a8\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+116            android:name="com.google.firebase.provider.FirebaseInitProvider"
+116-->[com.google.firebase:firebase-common:19.3.0] C:\Users\97798\.gradle\caches\transforms-2\files-2.1\d069970bbe020591cbd7f97c5e8042a8\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+117            android:authorities="com.sandesh.newmarker.firebaseinitprovider"
+117-->[com.google.firebase:firebase-common:19.3.0] C:\Users\97798\.gradle\caches\transforms-2\files-2.1\d069970bbe020591cbd7f97c5e8042a8\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+118            android:exported="false"
+118-->[com.google.firebase:firebase-common:19.3.0] C:\Users\97798\.gradle\caches\transforms-2\files-2.1\d069970bbe020591cbd7f97c5e8042a8\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+119            android:initOrder="100" />
+119-->[com.google.firebase:firebase-common:19.3.0] C:\Users\97798\.gradle\caches\transforms-2\files-2.1\d069970bbe020591cbd7f97c5e8042a8\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+120
+121        <activity
+121-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\97798\.gradle\caches\transforms-2\files-2.1\ea0d7ff4156fcbc57611a961b34f2556\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+122            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+122-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\97798\.gradle\caches\transforms-2\files-2.1\ea0d7ff4156fcbc57611a961b34f2556\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+123            android:exported="false"
+123-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\97798\.gradle\caches\transforms-2\files-2.1\ea0d7ff4156fcbc57611a961b34f2556\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+124            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+124-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\97798\.gradle\caches\transforms-2\files-2.1\ea0d7ff4156fcbc57611a961b34f2556\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+125
+126        <meta-data
+126-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\97798\.gradle\caches\transforms-2\files-2.1\b56076b0d587823957d3e3486a4632a0\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+127            android:name="com.google.android.gms.version"
+127-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\97798\.gradle\caches\transforms-2\files-2.1\b56076b0d587823957d3e3486a4632a0\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+128            android:value="@integer/google_play_services_version" />
+128-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\97798\.gradle\caches\transforms-2\files-2.1\b56076b0d587823957d3e3486a4632a0\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+129    </application>
+130
+131</manifest>

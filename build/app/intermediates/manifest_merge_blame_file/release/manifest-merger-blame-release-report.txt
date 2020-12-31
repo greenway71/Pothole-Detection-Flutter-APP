@@ -1,0 +1,188 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sandesh.newmarker"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml
+10    <!--
+11         io.flutter.app.FlutterApplication is an android.app.Application that
+12         calls FlutterMain.startInitialization(this); in its onCreate method.
+13         In most cases you can leave this as-is, but you if you want to provide
+14         additional functionality it is fine to subclass or reimplement
+15         FlutterApplication and put your custom class here.
+16    -->
+17    <uses-permission android:name="android.permisson.INTERNRT" />
+17-->/home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:8:5-65
+17-->/home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:8:22-63
+18    <uses-permission android:name="android.permisson.ACCESS_FINE_LOCATION" />
+18-->/home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:9:5-77
+18-->/home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:9:22-75
+19    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+19-->[:location] /home/greenway/Downloads/np/build/location/intermediates/library_manifest/release/AndroidManifest.xml:7:5-81
+19-->[:location] /home/greenway/Downloads/np/build/location/intermediates/library_manifest/release/AndroidManifest.xml:7:22-78
+20    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+20-->[:location] /home/greenway/Downloads/np/build/location/intermediates/library_manifest/release/AndroidManifest.xml:8:5-79
+20-->[:location] /home/greenway/Downloads/np/build/location/intermediates/library_manifest/release/AndroidManifest.xml:8:22-76
+21    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->[com.google.firebase:firebase-firestore:21.3.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/e3061f66499df05537420b1f7e594f34/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:13:5-79
+22-->[com.google.firebase:firebase-firestore:21.3.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/e3061f66499df05537420b1f7e594f34/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:13:22-76
+23    <uses-permission android:name="android.permission.INTERNET" />
+23-->[com.google.firebase:firebase-firestore:21.3.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/e3061f66499df05537420b1f7e594f34/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:14:5-67
+23-->[com.google.firebase:firebase-firestore:21.3.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/e3061f66499df05537420b1f7e594f34/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:14:22-64
+24
+25    <uses-feature
+25-->[com.google.android.gms:play-services-maps:17.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/7d60575157bec3cfa7ff2579b6dad05e/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+26        android:glEsVersion="0x00020000"
+26-->[com.google.android.gms:play-services-maps:17.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/7d60575157bec3cfa7ff2579b6dad05e/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+27        android:required="true" />
+27-->[com.google.android.gms:play-services-maps:17.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/7d60575157bec3cfa7ff2579b6dad05e/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+28
+29    <application
+29-->/home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:10:5-33:19
+30        android:name="io.flutter.app.FlutterApplication"
+30-->/home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:11:9-57
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/cc4e146a401e12618c8d4f31e70226a5/core-1.0.0/AndroidManifest.xml:22:18-86
+32        android:icon="@mipmap/ic_launcher"
+32-->/home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:13:9-43
+33        android:label="Pothole Detection System" >
+33-->/home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:12:9-49
+34        <meta-data
+34-->/home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:14:9-15:70
+35            android:name="com.google.android.geo.API_KEY"
+35-->/home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:14:20-65
+36            android:value="AIzaSyA5WAHceI00p6-U4ctqem8OTV2SzOrT6B8" />
+36-->/home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:15:13-68
+37
+38        <activity
+38-->/home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:16:9-27:20
+39            android:name="com.example.new_project.MainActivity"
+39-->/home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:17:13-41
+40            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+40-->/home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:20:13-163
+41            android:hardwareAccelerated="true"
+41-->/home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:21:13-47
+42            android:launchMode="singleTop"
+42-->/home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:18:13-43
+43            android:theme="@style/LaunchTheme"
+43-->/home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:19:13-47
+44            android:windowSoftInputMode="adjustResize" >
+44-->/home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:22:13-55
+45            <intent-filter>
+45-->/home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:23:13-26:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->/home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:24:17-68
+46-->/home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:24:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->/home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:25:17-76
+48-->/home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:25:27-74
+49            </intent-filter>
+50        </activity>
+51        <!--
+52             Don't delete the meta-data below.
+53             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+54        -->
+55        <meta-data
+55-->/home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:30:9-32:33
+56            android:name="flutterEmbedding"
+56-->/home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:31:13-44
+57            android:value="2" />
+57-->/home/greenway/Downloads/np/android/app/src/main/AndroidManifest.xml:32:13-30
+58
+59        <service
+59-->[:firebase_auth] /home/greenway/Downloads/np/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:19
+60            android:name="com.google.firebase.components.ComponentDiscoveryService"
+60-->[:firebase_auth] /home/greenway/Downloads/np/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:8:18-89
+61            android:directBootAware="true"
+61-->[com.google.firebase:firebase-common:19.3.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/73076b06d75d26be40dc384d877e1603/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+62            android:exported="false" >
+62-->[com.google.firebase:firebase-firestore:21.3.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/e3061f66499df05537420b1f7e594f34/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:19:13-37
+63            <meta-data
+63-->[:firebase_auth] /home/greenway/Downloads/np/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+64                android:name="com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar"
+64-->[:firebase_auth] /home/greenway/Downloads/np/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:10:17-122
+65                android:value="com.google.firebase.components.ComponentRegistrar" />
+65-->[:firebase_auth] /home/greenway/Downloads/np/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+66            <meta-data
+66-->[:cloud_firestore] /home/greenway/Downloads/np/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+67                android:name="com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar"
+67-->[:cloud_firestore] /home/greenway/Downloads/np/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:10:17-133
+68                android:value="com.google.firebase.components.ComponentRegistrar" />
+68-->[:cloud_firestore] /home/greenway/Downloads/np/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+69            <meta-data
+69-->[:firebase_core] /home/greenway/Downloads/np/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+70                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
+70-->[:firebase_core] /home/greenway/Downloads/np/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:10:17-123
+71                android:value="com.google.firebase.components.ComponentRegistrar" />
+71-->[:firebase_core] /home/greenway/Downloads/np/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+72            <meta-data
+72-->[com.google.firebase:firebase-firestore:21.3.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/e3061f66499df05537420b1f7e594f34/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:20:13-22:85
+73                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+73-->[com.google.firebase:firebase-firestore:21.3.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/e3061f66499df05537420b1f7e594f34/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:21:17-111
+74                android:value="com.google.firebase.components.ComponentRegistrar" />
+74-->[com.google.firebase:firebase-firestore:21.3.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/e3061f66499df05537420b1f7e594f34/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:22:17-82
+75            <meta-data
+75-->[com.google.firebase:firebase-auth:19.2.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/20dc4fdcc4db16cda65598ec09369c4f/firebase-auth-19.2.0/AndroidManifest.xml:36:13-38:85
+76                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+76-->[com.google.firebase:firebase-auth:19.2.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/20dc4fdcc4db16cda65598ec09369c4f/firebase-auth-19.2.0/AndroidManifest.xml:37:17-109
+77                android:value="com.google.firebase.components.ComponentRegistrar" />
+77-->[com.google.firebase:firebase-auth:19.2.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/20dc4fdcc4db16cda65598ec09369c4f/firebase-auth-19.2.0/AndroidManifest.xml:38:17-82
+78        </service> <!-- Needs to be explicitly declared on P+ -->
+79        <uses-library
+79-->[com.google.android.gms:play-services-maps:17.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/7d60575157bec3cfa7ff2579b6dad05e/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+80            android:name="org.apache.http.legacy"
+80-->[com.google.android.gms:play-services-maps:17.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/7d60575157bec3cfa7ff2579b6dad05e/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+81            android:required="false" />
+81-->[com.google.android.gms:play-services-maps:17.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/7d60575157bec3cfa7ff2579b6dad05e/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+82
+83        <activity
+83-->[com.google.firebase:firebase-auth:19.2.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/20dc4fdcc4db16cda65598ec09369c4f/firebase-auth-19.2.0/AndroidManifest.xml:24:9-31:50
+84            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+84-->[com.google.firebase:firebase-auth:19.2.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/20dc4fdcc4db16cda65598ec09369c4f/firebase-auth-19.2.0/AndroidManifest.xml:25:13-85
+85            android:excludeFromRecents="true"
+85-->[com.google.firebase:firebase-auth:19.2.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/20dc4fdcc4db16cda65598ec09369c4f/firebase-auth-19.2.0/AndroidManifest.xml:26:13-46
+86            android:exported="true"
+86-->[com.google.firebase:firebase-auth:19.2.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/20dc4fdcc4db16cda65598ec09369c4f/firebase-auth-19.2.0/AndroidManifest.xml:27:13-36
+87            android:launchMode="singleTask"
+87-->[com.google.firebase:firebase-auth:19.2.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/20dc4fdcc4db16cda65598ec09369c4f/firebase-auth-19.2.0/AndroidManifest.xml:28:13-44
+88            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+88-->[com.google.firebase:firebase-auth:19.2.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/20dc4fdcc4db16cda65598ec09369c4f/firebase-auth-19.2.0/AndroidManifest.xml:29:13-102
+89            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+89-->[com.google.firebase:firebase-auth:19.2.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/20dc4fdcc4db16cda65598ec09369c4f/firebase-auth-19.2.0/AndroidManifest.xml:30:13-72
+90
+91        <provider
+91-->[com.google.firebase:firebase-common:19.3.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/73076b06d75d26be40dc384d877e1603/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+92            android:name="com.google.firebase.provider.FirebaseInitProvider"
+92-->[com.google.firebase:firebase-common:19.3.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/73076b06d75d26be40dc384d877e1603/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+93            android:authorities="com.sandesh.newmarker.firebaseinitprovider"
+93-->[com.google.firebase:firebase-common:19.3.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/73076b06d75d26be40dc384d877e1603/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+94            android:exported="false"
+94-->[com.google.firebase:firebase-common:19.3.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/73076b06d75d26be40dc384d877e1603/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+95            android:initOrder="100" />
+95-->[com.google.firebase:firebase-common:19.3.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/73076b06d75d26be40dc384d877e1603/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+96
+97        <activity
+97-->[com.google.android.gms:play-services-base:17.1.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/ea0d7ff4156fcbc57611a961b34f2556/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+98            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+98-->[com.google.android.gms:play-services-base:17.1.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/ea0d7ff4156fcbc57611a961b34f2556/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+99            android:exported="false"
+99-->[com.google.android.gms:play-services-base:17.1.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/ea0d7ff4156fcbc57611a961b34f2556/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+100            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+100-->[com.google.android.gms:play-services-base:17.1.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/ea0d7ff4156fcbc57611a961b34f2556/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+101
+102        <meta-data
+102-->[com.google.android.gms:play-services-basement:17.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/0a0ac069d97d7df19b88d6c42e92e229/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+103            android:name="com.google.android.gms.version"
+103-->[com.google.android.gms:play-services-basement:17.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/0a0ac069d97d7df19b88d6c42e92e229/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+104            android:value="@integer/google_play_services_version" />
+104-->[com.google.android.gms:play-services-basement:17.0.0] /home/greenway/.gradle/caches/transforms-2/files-2.1/0a0ac069d97d7df19b88d6c42e92e229/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+105    </application>
+106
+107</manifest>
